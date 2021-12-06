@@ -1,0 +1,10 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 2rem;
+}
+
+.cards >Card{
+  background-color: red;;
+}

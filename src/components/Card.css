@@ -1,0 +1,77 @@
+.card {
+    border-radius: 1rem;
+    width: 15rem;
+    height:10rem;
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+    padding: 0.5rem;
+}
+
+.info {
+    background-color:hsl(235, 46%, 20%);
+    color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    position: relative;
+    bottom: 1.3rem;
+}
+
+.card > .infoContainer :hover {
+    background-color:hsl(235, 45%, 61%);
+    cursor:pointer;
+}
+
+.info > h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.info > h2 {
+    font-size: 40px;
+    font-weight:300;
+}
+
+.info > h4 {
+    font-size: 12px;
+    font-weight:300;
+}
+
+.info > div {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    height:3.6rem;
+    border-radius: 1rem;
+}
+
+.image > img {
+    width: 30%;
+    float: right;
+    margin-right: 10px;
+}
+
+.Work {
+    background-color: hsl(15, 100%, 70%);
+}
+
+.Play {
+    background-color: hsl(195, 74%, 62%);
+}
+
+.Study {
+    background-color: hsl(348, 100%, 68%);
+}
+
+.Exercise {
+    background-color: hsl(145, 58%, 55%);
+}
+
+.Social {
+    background-color: hsl(264, 64%, 52%);
+}
+
+.Self {
+    background-color: hsl(43, 84%, 65%);
+}

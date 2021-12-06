@@ -1,0 +1,32 @@
+.id {
+    border-radius: 1rem;
+    background-color: hsl(246, 80%, 60%);
+    color: white;
+}
+
+.panel {
+    border-radius: 1rem;
+}
+
+.id > img {
+    margin: 3px;
+    width: 25%;
+    border: solid white;
+    border-radius: 50%;
+}
+
+.period {
+    background-color:hsl(235, 46%, 20%);
+    border-radius: 10px;
+    width: 100%;
+}
+
+.period > button{
+    padding: 0;
+    border: none;
+    background: none;
+    color: hsl(235, 45%, 61%);
+    margin:15px;
+    font-weight: normal;
+    cursor:pointer;
+}
