@@ -18,10 +18,13 @@ const Cards : React.FC<Props> = (
     return (
         <div className="cards">
             {props.schedule.map((routine) => {
-                return <Card 
+                return (
+                    <div className='singleCard'>
+                        <Card 
                            routine = {routine}
                            period = {props.period}
-                       />
+                        />
+                    </div>)
             })}
         </div>
     )

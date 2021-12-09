@@ -26,7 +26,7 @@ type FrequenceObject = {
 function App() {
 
   const [period, setPeriod] = useState("daily");
-  const [schedule, setSchedule] = useState<RoutineObject[]> (data);
+  const [schedule] = useState<RoutineObject[]> (data);
 
   const changePeriod = (e : React.MouseEvent<HTMLButtonElement>) => {
     let newPeriod = e.currentTarget.value;

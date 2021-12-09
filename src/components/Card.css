@@ -1,10 +1,10 @@
 .card {
     border-radius: 1rem;
-    width: 15rem;
+    width: 90%;
     height:10rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .info {
@@ -13,43 +13,57 @@
     border-radius: 1rem;
     padding: 1rem;
     position: relative;
-    bottom: 1.3rem;
+    bottom: 1rem;
 }
 
-.card > .infoContainer :hover {
+.card :not(.image, img):hover {
     background-color:hsl(235, 45%, 61%);
     cursor:pointer;
 }
 
-.info > h3{
+.info div h3{
     font-size: 15px;
     font-weight: 500;
+    margin-left: 1rem;
 }
 
-.info > h2 {
-    font-size: 40px;
-    font-weight:300;
+.info h2 {
+    font-size: 35px;
+    font-weight:50;
+    text-align: left;
+    margin-left: 1rem;
 }
 
-.info > h4 {
+.info h4 {
     font-size: 12px;
-    font-weight:300;
+    font-weight:100;
+    text-align: left;
+    margin-left: 1rem;
+    opacity: 80%;
 }
 
-.info > div {
+.info div {
     display: flex;
-    justify-content: center;
+    justify-content:space-between;
+    width: 100%;
+}
+
+.info div img {
+    height:100%;
+    margin-top: 1.5rem;
+    padding-right: 1rem;
 }
 
 .image {
-    height:3.6rem;
+    height:4rem;
     border-radius: 1rem;
 }
 
-.image > img {
-    width: 30%;
+.image  img {
+    size: 30%;
     float: right;
-    margin-right: 10px;
+    margin-right: 1rem;
+    margin-bottom: -5rem;
 }
 
 .Work {
