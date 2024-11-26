@@ -12,7 +12,7 @@ const Panel : React.FC<Props> = ({
 }) => {
     return (
         <div className="panel">
-            <div className="id">
+            <div className="personal---data">
               <img  src={picture}  alt="Jeremy"/>
               <h5>Report for</h5>
               <h2>Jeremy</h2>

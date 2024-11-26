@@ -1,4 +1,4 @@
-.id {
+.personal---data {
     border-radius: 1rem;
     background-color: hsl(246, 80%, 60%);
     color: white;
@@ -6,7 +6,7 @@
     padding: 1.5rem 0rem 3rem 1rem;
 }
 
-.id h5 {
+.personal---data h5 {
     font-size: 2rem;
     font-weight: 300;
     margin-bottom: -1rem;
@@ -14,7 +14,7 @@
     opacity: 80%;
 }
 
-.id h2 {
+.personal---data h2 {
     font-size: 2rem;
     font-weight: 300;
     margin-bottom: -1rem;
@@ -24,7 +24,6 @@
     border-radius: 1rem;
     margin-bottom: 3rem;
     margin-top: 3rem;
-    height:20rem;
 }
 
 .id img {
