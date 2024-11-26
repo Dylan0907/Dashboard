@@ -11,19 +11,19 @@ const Panel : React.FC<Props> = ({
     changePeriod
 }) => {
     return (
-        <div className="panel">
+        <div className="personal--card">
             <div className="personal---data">
               <img  src={picture}  alt="Jeremy"/>
-              <h5>Report for</h5>
-              <h2>Jeremy</h2>
-              <h2>Robson</h2>
+              <div>
+                <h5>Report for</h5>
+                <h2>Jeremy</h2>
+                <h2>Robson</h2>
+              </div>
             </div>
             <div className="period"> 
-                <div>
-                    <button value="daily" onClick={changePeriod}>Daily</button>
-                    <button value="weekly" onClick={changePeriod}>Weekly</button>
-                    <button value="monthly" onClick={changePeriod}>Monthly</button>
-                </div>   
+                    <button value="daily" id="daily" onClick={changePeriod}>Daily</button>
+                    <button value="weekly"  id="weekly" onClick={changePeriod}>Weekly</button>
+                    <button value="monthly"  id="monthly" onClick={changePeriod}>Monthly</button> 
             </div>
         </div>
     )

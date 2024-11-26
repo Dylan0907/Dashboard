@@ -5,3 +5,8 @@
   flex-direction: column;
   text-align:center;
 }
+
+
+.btn--selected {
+  color : white !important 
+}
