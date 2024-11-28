@@ -44,12 +44,14 @@ const Card : React.FC<Props> = (
               <img  src={img}  alt={props.routine.title}/>
             </div>
             <div className="info">
-              <div>
+              <div className='info--activity'>
                 <h3>{props.routine.title}</h3>
                 <img  src={icon}  alt={icon}/>
               </div>
-              <h2>{props.routine.timeframes[period as keyof TimeframesObject].current}hrs</h2>
-              <h4>Last {time[period as keyof Time]} - {props.routine.timeframes[period as keyof TimeframesObject].previous} hrs</h4>
+              <div className='time--schedule'>
+                <h2 className='time--schedule-hours'>{props.routine.timeframes[period as keyof TimeframesObject].current}hrs</h2>
+                <h4>Last {time[period as keyof Time]} - {props.routine.timeframes[period as keyof TimeframesObject].previous} hrs</h4>
+              </div>
             </div>
         </div>
     )

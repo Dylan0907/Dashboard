@@ -41,17 +41,13 @@ function App() {
 
   return (
     <div className="container">
-      <div className="panel">
       <Panel
            changePeriod={changePeriod} 
         />
-      </div>
-      <div className="cardsContainer">
       <Cards 
           schedule = {schedule}
           period = {period}
         />
-      </div>
     </div>
   );
 }

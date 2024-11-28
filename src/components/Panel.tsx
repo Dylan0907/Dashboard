@@ -14,16 +14,15 @@ const Panel : React.FC<Props> = ({
         <div className="personal--card">
             <div className="personal---data">
               <img  src={picture}  alt="Jeremy"/>
-              <div>
+              <div className="personal--card--name" >
                 <h5>Report for</h5>
-                <h2>Jeremy</h2>
-                <h2>Robson</h2>
+                <h2 className="person--name">Jeremy Robson</h2>
               </div>
             </div>
             <div className="period"> 
-                    <button value="daily" id="daily" onClick={changePeriod}>Daily</button>
-                    <button value="weekly"  id="weekly" onClick={changePeriod}>Weekly</button>
-                    <button value="monthly"  id="monthly" onClick={changePeriod}>Monthly</button> 
+                <button value="daily" id="daily" onClick={changePeriod}>Daily</button>
+                <button value="weekly"  id="weekly" onClick={changePeriod}>Weekly</button>
+                <button value="monthly"  id="monthly" onClick={changePeriod}>Monthly</button> 
             </div>
         </div>
     )

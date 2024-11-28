@@ -16,7 +16,7 @@ const Cards : React.FC<Props> = (
     props
 ) => {
     return (
-        <div className="cards">
+        <div className="container--cards">
             {props.schedule.map((routine) => {
                 return (
                         <Card 

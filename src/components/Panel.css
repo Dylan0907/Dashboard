@@ -7,30 +7,34 @@
     color: white;
     display: flex;
     position: relative;
-    top: 01rem;
+    top: 1rem;
     text-align: left;
     padding: 1.5rem 0rem 3rem 1rem;
 }
 
 .personal---data h5 {
-    font-size: 2rem;
     font-weight: 300;
     margin-bottom: -1rem;
     font-size: 1rem;
     opacity: 80%;
 }
 
-.personal---data h2 {
-    font-size: 2rem;
+.person--name {
     font-weight: 300;
     margin-bottom: -1rem;
 }
 
 .personal---data img {
     margin: 3px;
-    width: 25%;
+    width: 30%;
+
     border: solid white;
     border-radius: 50%;
+}
+
+.personal--card--name {
+    font-size: 1rem;
+    margin-left: 1.7em;
 }
 
 .period {
@@ -38,7 +42,7 @@
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
-    padding:1.5em 1.3em 0.8em 1.3em ;
+    padding:1.5em 2em 0.8em 2em ;
 }
 
 .period button{
@@ -48,3 +52,53 @@
     font-weight: normal;
     cursor:pointer;
 }
+
+@media (min-width: 480px) {
+    .personal--card--name {
+        font-size: 1.8rem;
+        margin-left: 1.7em;
+    }
+
+    .period {
+        padding:2em 4.5em 1.2em 4.5em ;
+    }
+
+    .period button{
+        font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .personal--card {
+        margin-right: 2rem;
+        margin-top:3.9rem;
+    }
+    .personal---data {
+        flex-direction: column;
+    }
+
+    .personal--card--name {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .personal---data img {
+        width: 38%;
+    }
+
+    .period {
+        flex-direction: column;
+        padding-left: 1rem;
+        align-items: start ;
+    }
+
+    button + button{
+        margin-top: 1rem;
+    }
+
+    .person--name{
+        margin-bottom: 3rem;
+        margin-right: 5rem;
+    }
+
+  }

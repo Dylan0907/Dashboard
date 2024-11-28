@@ -24,7 +24,7 @@
     margin-left: 1rem;
 }
 
-.info h2 {
+.time--schedule-hours {
     font-size: 35px;
     font-weight:50;
     text-align: left;
@@ -34,8 +34,8 @@
 .info h4 {
     font-size: 12px;
     font-weight:100;
-    text-align: left;
     margin-left: 1rem;
+    align-content: center;
     opacity: 80%;
 }
 
@@ -84,4 +84,33 @@
 
 .Self {
     background-color: hsl(43, 84%, 65%);
+}
+
+@media (min-width: 480px) {
+    .info h4 {
+        font-size: 0.9rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .info{
+        width: 17rem;
+        text-align: start;
+    }
+
+    .card {
+        margin:0;
+    }
+    .time--schedule {
+        flex-direction: column;
+    }
+
+    .time--schedule-hours{
+        margin-top: 1rem;
+        margin-bottom: 0rem;
+    }
+
+    .info--activity {
+        margin-bottom: 0;
+    }
 }
